@@ -1,0 +1,36 @@
+sudo apt-get install vlc
+python3 --version
+sudo apt-get upgrade
+sudo apt-get update
+sudo apt-get install libbluetooth-dev
+https://github.com/pybluez/pybluez
+python3 setup.py install
+hciconfig
+hcitool dev
+sudo service bluetooth status
+hciconfig -a
+bluetoothctl
+bluetoothcl
+bluetoothctl
+hciconfig
+bluetoothctl
+hciconfig -a
+sudo service bluetooth status
+bluetoothctl
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+# Add the repository to Apt sources:
+    echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+$(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+docker --versino
+docker --version
+pip3 install - r req.txt
+sudo apt install nodejs
+node -v or node --version
+sudo apt install npm 
+npm -v or npm --version 
