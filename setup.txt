@@ -29,7 +29,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 docker --versino
 docker --version
-pip3 install - r req.txt
+pip3 install -r req.txt
 sudo apt install nodejs
 node -v or node --version
 sudo apt install npm 
